@@ -1,14 +1,29 @@
 {
-  "name": "grunt_test",
-  "version": "0.0.0",
-  "description": "",
+  "name": "gruntsample",
+  "version": "0.1.0",
+  "description": "Sample Grunt repo",
   "main": "app.js",
   "scripts": {
     "start": "node app",
     "test": "grunt"
   },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:pdehaan/gruntsample.git"
+  },
+  "homepage": "https://github.com/pdehaan/gruntsample/",
+  "bugs": "https://github.com/pdehaan/gruntsample/issues",
   "author": "Peter deHaan (http://nodeexamples.com/)",
   "license": "WTFPL",
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.3.x"
+  },
+  "keywords": [
+    "grunt"
+  ],
+  "dependencies": {
+  },
   "devDependencies": {
     "grunt": "~0.4.2",
     "grunt-contrib-jshint": "~0.7.2",
