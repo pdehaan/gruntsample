@@ -1,4 +1,3 @@
-gruntsample
-===========
+# gruntsample
 
-Sample Grunt repo
+Sample #GruntJS repo
